@@ -10,20 +10,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
-/* ==================================================
+/* ====================================================================================================
    	Common Styles Section
-   ==================================================
-   Description: This section contains globally shared 
-   styles that are applied across multiple components 
-   or elements. These styles ensure consistency and 
-   are used to define reusable patterns such as 
-   typography, layout, spacing, and resets.
+   ====================================================================================================
+   Description: This section contains globally shared styles that are applied across multiple 
+   components or elements. These styles ensure consistency and are used to define reusable patterns 
+   such as typography, layout, spacing, and resets.
    
-   Usage: Modify these styles only if you need to 
-   change the appearance of core elements that are 
-   used throughout the site. Be cautious when making 
-   changes, as they may affect multiple components.
-=================================================== */
+   Usage: Modify these styles only if you need to change the appearance of core elements that are used 
+   throughout the site. Be cautious when making changes, as they may affect multiple components.
+===================================================================================================== */
 
 
 html, body, div, span, applet, object,
@@ -1753,25 +1749,6 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		/* header.special:before, header.special:after {
-			border-bottom: solid 1.5px;
-			border-top: solid 1.5px;
-			content: '';
-			height: 7px;
-			opacity: 0.1;
-			position: absolute;
-			top: 1.75em;
-			width: 43%;
-		}
-
-		header.special:before {
-			left: 0;
-		}
-
-		header.special:after {
-			right: 0;
-		} */
-
 		/* HH introduction summary CSS */
 		
 		header.special h1 {
@@ -1804,21 +1781,6 @@ input, select, textarea {
 			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 			font-weight:lighter;
 		}
-
-		/* header.special .icon {
-			cursor: default;
-			height: 7em;
-			left: 0;
-			position: absolute;
-			text-align: center;
-			top: 1em;
-			width: 100%;
-		}
-
-			header.special .icon:before {
-				font-size: 3.5em;
-				opacity: 0.35;
-			} */
 
 	footer > :last-child {
 		margin-bottom: 0;
@@ -3250,10 +3212,6 @@ and moved to the corresponding sections later.
 				padding-top: 1.5em;
 			}
 
-				/* header.special:before, header.special:after {
-					width: 40%;
-				} */
-
 				header.special h2 + p {
 					padding-top: 1.25em;
 				}
@@ -3557,15 +3515,6 @@ and moved to the corresponding sections later.
 					padding-left: 1.5em;
 					padding-right: 1.5em;
 				}
-
-					/* header.special:before, header.special:after {
-						width: 38%;
-					}
-
-					header.special .icon {
-						font-size: 0.75em;
-						top: 1.5em;
-					} */
 
 				header p {
 					text-align: center;
