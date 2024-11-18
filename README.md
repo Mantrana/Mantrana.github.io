@@ -29,6 +29,8 @@ Resource Credits:
 
 Welcome to Neha Deshmukh's personal website - Cozy Minds Therapy! This website showcases my professional background, areas of expertise, services offered, and provides a platform to book consultations or connect with me. The site serves as an online representation of my career in psychology, with detailed information on the services I provide, my research, and ways to reach out for support.
 
+Access the website here: https://NehaTherapy.github.io
+
 ## Features
 
 - **About Me**: An introduction to my background, education, and passion for psychology.
