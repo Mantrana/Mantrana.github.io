@@ -2835,36 +2835,6 @@ and moved to the corresponding sections later.
 		height: 100%;
 		padding-top: 5em;
 	}
-
-	/* Services Section: Psychological Testing */
-
-	.service-psychological-testing{
-		background-color: #DCEAF7;
-		/* margin-bottom: 5em; */
-		padding: 3em 0 2em 0;
-		position: relative;
-	}
-
-	.psychological-testing-image{
-		width: 100%;
-		height: 100%;
-		padding-top: 5em;
-	}
-
-	/* Services Section: IQ and Career Counseling */
-
-	.service-career-counseling{
-		background-color: #F8EDF1;
-		/* margin-bottom: 5em; */
-		padding: 3em 0 2em 0;
-		position: relative;
-	}
-
-	.career-counseling-image{
-		width: 100%;
-		height: 100%;
-		padding-top: 5em;
-	}
 	
 	/* Services Section: Family/Parent Counseling */
 
@@ -2881,16 +2851,16 @@ and moved to the corresponding sections later.
 		padding-top: 5em;
 	}
 
-/* Services Section: Resources */
+	/* Services Section: Testing */
 
-	.service-resources{
+	.service-testing{
 		background-color: #F8EDF1;
 		/* margin-bottom: 5em; */
 		padding: 3em 0 2em 0;
 		position: relative;
 	}
 
-	.resources-image{
+	.testing-image{
 		width: 100%;
 		height: 100%;
 		padding-top: 5em;
