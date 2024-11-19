@@ -3095,7 +3095,59 @@ and moved to the corresponding sections later.
 		background-color: #90f809;
 	}
 
+/* ====================================================================================================
+	CONTACT.HTML CSS added by the Mantrana Team for Contact.html
+	====================================================================================================
+	Description: This section contains the CSS added by the Mantrana team. These need to be reviewed
+	and moved to the corresponding sections later. 
+	CONTACT.HTML CSS
+	- Aditya Deshmukh
+	====================================================================================================== */
 
+	.contact-form {
+		max-width: 500px;
+		margin: 0 auto;
+		padding: 50px;
+	}
+	
+	.form-group {
+		margin-bottom: 15px;
+	}
+	
+	label {
+		display: block;
+		margin-bottom: 5px;
+	}
+	
+	input, textarea {
+		width: 100%;
+		padding: 8px;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+	}
+	
+	button {
+		background-color: #83d3c9;
+		color: white;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+	
+	button:hover {
+		background-color: #45a049;
+	}
+	
+	.error {
+		color: red;
+		font-size: 0.8em;
+	}
+	
+	.success {
+		color: green;
+		font-size: 0.8em;
+	}
 
 /* ====================================================================================================
    	Media Section
