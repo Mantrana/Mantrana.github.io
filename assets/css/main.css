@@ -2874,11 +2874,13 @@ and moved to the corresponding sections later.
 
 	.section-headers{
 		font-size: 40px;
+		margin-bottom: 0.5em;
 	}
 
 	.section-headers-right{
 		font-size: 40px;
 		text-align: right;
+		margin-bottom: 0.5em;
 	}
 	
 
