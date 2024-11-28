@@ -50,14 +50,14 @@ Access the website here: https://NehaTherapy.github.io
 - jQuery
 - Responsive Design
 
-## 📦 Installation
+<!-- ## 📦 Installation
 
 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/mantrana.git
 ```
 
-2. Open `index.html` in your web browser
+2. Open `index.html` in your web browser -->
 
 ## 🌐 Website Structure
 
@@ -86,13 +86,13 @@ git clone https://github.com/your-username/mantrana.git
 
 © 2024 Mantrana - All Rights Reserved
 
-## 🤝 Contributing
+<!-- ## 🤝 Contributing
 
 Interested in contributing? Please read our contribution guidelines before submitting a pull request.
 
 ## How to Contribute
 
-If you have suggestions or improvements, feel free to fork this repository, create a branch, and submit a pull request. Contributions to improve the website, add features, or suggest content ideas are welcome!
+If you have suggestions or improvements, feel free to fork this repository, create a branch, and submit a pull request. Contributions to improve the website, add features, or suggest content ideas are welcome! -->
 
 ## License
 
