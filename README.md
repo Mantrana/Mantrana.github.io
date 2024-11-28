@@ -4,7 +4,7 @@
 
 Mantrana is a comprehensive clinical psychology website dedicated to providing professional mental health therapy and support. The platform offers personalized services for individuals, children, and families, focusing on creating a safe and supportive environment for mental well-being.
 
-Access the website here: https://NehaTherapy.github.io
+Access the website here: https://mantrana.github.io
 
 ## 🔍 Services
 
@@ -115,7 +115,7 @@ Feel free to get in touch with me for any queries or to schedule a consultation:
 
 - Email: nehadeshmukh.nd22@gmail.com
 - Phone: +91 - 98190 41024
-- Website: https://NehaTherapy.github.io
+- Website: https://mantrana.github.io
 
 
 <!-- 
