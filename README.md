@@ -88,16 +88,6 @@ Feel free to get in touch with me for any queries or to schedule a consultation:
 
 © 2024 Mantrana - All Rights Reserved
 
-<!-- ## 🤝 Contributing
-
-Interested in contributing? Please read our contribution guidelines before submitting a pull request.
-
-## How to Contribute
-
-If you have suggestions or improvements, feel free to fork this repository, create a branch, and submit a pull request. Contributions to improve the website, add features, or suggest content ideas are welcome! -->
-
-## License
-
 This project is licensed under the Creative Commons Attribution 3.0 Unported License. You are free to share and adapt the material as long as proper attribution is given. For more details, refer to the LICENSE file or visit http://creativecommons.org/licenses/by/3.0/.
 
 ### Credits
@@ -111,6 +101,14 @@ License: CCA 3.0 license
 	* jQuery (jquery.com)
 	* Scrollex (github.com/ajlkn/jquery.scrollex)
 	* Responsive Tools (github.com/ajlkn/responsive-tools)
+
+<!-- ## 🤝 Contributing
+
+Interested in contributing? Please read our contribution guidelines before submitting a pull request.
+
+## How to Contribute
+
+If you have suggestions or improvements, feel free to fork this repository, create a branch, and submit a pull request. Contributions to improve the website, add features, or suggest content ideas are welcome! -->
 
 <!-- 
 
