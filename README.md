@@ -1,76 +1,94 @@
-<!-- 
+# Mantrana 🧠💙
 
-Credits:
-- Original Work Titled "Twenty by HTML5 UP" by @ajlkn (AJ: aj@lkn.io | @ajlkn) is licensed under CC BY 3.0 (html5up.net/license). 
-- Modifications were made by Aditya Deshmukh. 
-- Modifications include updating the template for a personal portfolio. 
-- Additionally, the animations and visualizations have been updated as per personal needs. 
+## About Mantrana
 
--->
-
-<!--
-
-Resource Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
-	
--->
-
-# Neha Deshmukh's Personal Website
-
-Welcome to Neha Deshmukh's personal website - Cozy Minds Therapy! This website showcases my professional background, areas of expertise, services offered, and provides a platform to book consultations or connect with me. The site serves as an online representation of my career in psychology, with detailed information on the services I provide, my research, and ways to reach out for support.
+Mantrana is a comprehensive clinical psychology website dedicated to providing professional mental health therapy and support. The platform offers personalized services for individuals, children, and families, focusing on creating a safe and supportive environment for mental well-being.
 
 Access the website here: https://NehaTherapy.github.io
 
-## Features
+## 🔍 Services
 
-- **About Me**: An introduction to my background, education, and passion for psychology.
-- **Services**: A comprehensive list of psychological services and specializations offered, such as individual therapy, couples therapy, and mental health assessments.
-- **Blog**: Regular updates and articles on mental health, personal well-being, and insights from the field of psychology.
-- **Contact**: A user-friendly contact form to schedule appointments or ask questions.
-- **Testimonials**: Feedback from clients and colleagues about their experience working with me.
-- **Resources**: A section offering helpful mental health resources and reading material for individuals seeking support.
+### Individual Therapy
+- Support for adults (18+)
+- Addresses:
+  * Grief
+  * Mood regulation
+  * Stress
+  * Trauma
+  * Anxiety
+- Incorporates expressive art therapy
 
-## Website Structure
+### Children Therapy
+- Specialized support for children
+- Focuses on:
+  * Play therapy
+  * Mood regulation
+  * Hyperactivity management
+  * Screen addiction
+  * Behavior modification
 
-The website consists of the following main sections:
+### Family Counseling
+- Comprehensive family support
+- Includes:
+  * Parent guidance
+  * Family relationship improvement
+  * Conflict resolution
+  * Emotional health support
 
-1. **Home Page**: 
-   - Introduction to my practice.
-   - Links to other sections (About, Services, Blog, Contact).
+### Psychological Testing
+- In-depth psychological assessments
+- Aims to:
+  * Uncover underlying thoughts and emotions
+  * Provide personality insights
+  * Inform personalized therapeutic interventions
 
-2. **About Me**: 
-   - Detailed information on my background, qualifications, and professional experience.
+## 🛠 Technologies
 
-3. **Services**: 
-   - Overview of the various therapy options and psychological services I offer.
-   - Specializations in anxiety, depression, trauma therapy, and more.
+- HTML5
+- CSS
+- JavaScript
+- jQuery
+- Responsive Design
 
-4. **Blog**: 
-   - Articles and posts on mental health, self-improvement, and personal growth.
+## 📦 Installation
 
-5. **Testimonials**: 
-   - Reviews and feedback from previous clients.
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/mantrana.git
+```
 
-6. **Contact**: 
-   - A form to get in touch for consultations or inquiries.
+2. Open `index.html` in your web browser
 
-## Technologies Used
+## 🌐 Website Structure
 
-- **HTML5** and **CSS3**: The website's core structure and design.
-- **JavaScript**: Adds interactivity to the website (for example, form validations and animations).
-- **Bootstrap**: For responsive design and layout.
-<!-- - **PHP** (optional): If you have a server-side contact form.
-- **MySQL** (optional): For blog or testimonials storage (if needed). -->
+- Home Page
+- About Section
+- Services Overview
+- Testimonials
+- Contact Options
+
+## 👥 Authors
+
+- Neha Deshmukh
+- Aditya Deshmukh
+
+## 📞 Contact
+
+- Email: https://NehaTherapy.github.io
+- WhatsApp: Available on website
+- Social Media:
+  * Facebook
+  * Instagram
+  * LinkedIn
+  * Medium
+
+## 📄 License
+
+© 2024 Mantrana - All Rights Reserved
+
+## 🤝 Contributing
+
+Interested in contributing? Please read our contribution guidelines before submitting a pull request.
 
 ## How to Contribute
 
@@ -80,9 +98,37 @@ If you have suggestions or improvements, feel free to fork this repository, crea
 
 This project is licensed under the Creative Commons Attribution 3.0 Unported License. You are free to share and adapt the material as long as proper attribution is given. For more details, refer to the LICENSE file or visit http://creativecommons.org/licenses/by/3.0/.
 
+### Credits
+Inspiration Theme: html5up.net | @ajlkn | Twenty
+License: CCA 3.0 license
+
+### Resource Credits
+- Demo Images: Unsplash (unsplash.com)
+- Icons:Font Awesome (fontawesome.io)
+- Other: 
+	* jQuery (jquery.com)
+	* Scrollex (github.com/ajlkn/jquery.scrollex)
+	* Responsive Tools (github.com/ajlkn/responsive-tools)
+
 ## Contact
 Feel free to get in touch with me for any queries or to schedule a consultation:
 
 - Email: nehadeshmukh.nd22@gmail.com
 - Phone: +91 - 98190 41024
-- Website: [WebsiteURL]
+- Website: https://NehaTherapy.github.io
+
+
+<!-- 
+
+CREDITS:
+Original Theme: html5up.net | @ajlkn | Twenty
+License: CCA 3.0 license
+
+Resource Credits:
+Demo Images: Unsplash (unsplash.com)
+Icons: Font Awesome (fontawesome.io)
+Other:
+	jQuery (jquery.com)
+	Scrollex (github.com/ajlkn/jquery.scrollex)
+	Responsive Tools (github.com/ajlkn/responsive-tools)
+-->

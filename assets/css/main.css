@@ -2268,7 +2268,6 @@ input, select, textarea {
 	}
 
 	#header {
-		background: #fff;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
@@ -2371,6 +2370,7 @@ input, select, textarea {
 			-webkit-animation: reveal-header 0.5s;
 			-ms-animation: reveal-header 0.5s;
 			animation: reveal-header 0.5s;
+			background: #f8f3ef;
 		}
 
 		#header.alt {
@@ -2497,113 +2497,87 @@ input, select, textarea {
 	}
 
 	#banner {
-		/* Add the following CSS if you add background color - Except background-attachment */
-		/* background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #f1f1f1;
-		color: #fff;
-		cursor: default;
-		padding: 6em 0;
-		text-align: center; */
-
-		/* Add the following CSS if you add image */
-		/* background-image: url("images/personal03-banner.png"); 
-		background-size: cover; 
-        background-position: center;
-        background-repeat: no-repeat;
-		justify-content: center;
-        align-items: center;  */
-
-		/* padding: 6em 0; */
-
-		/* Temporary addition by AD */
-		/* position: relative;
-		width: 100%;
-		height: calc(100vh - 70px);
-		height: 100vh;;
-		background-image: url("images/personal03-banner.png"); 
-		background-size: cover;
-		background-size: 100% 100%;
-		background-position: center center;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-end; */
+		/* WILL MAKE MASSIVE CHANGES AFTER THIS TEXT. USE THIS AS UNDO CHECK POINT */
 
 		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+		text-align: center;
 		width: 100%;
 		height: 100vh;
-		/* height: calc(100vh - 70px); */
-		object-fit: cover;
+		min-height: 600px; 
 		background-color: #222222;
-
+		overflow: hidden; 
+		/* padding-bottom: 10%; */
 	}
 
 	/* Temporary addition by AD */
 
 	.full-page-image {
+		position: absolute;
+		top: 0;
+		left: 0;
 		width: 100%;
-		height: 90%;
+		height: 100%;
 		object-fit: cover;
+		z-index: 1;
 	}
 
 	.button-footer {
-		width: 100%;
-		height: 10%;
 		display: flex;
+		flex-direction: column; /* Stack on small screens */
+		align-items: center;
 		justify-content: center;
-		padding: 20px 0;
+		width: 100%;
+		max-width: 400px; /* Limit maximum width */
+		gap: 1rem;
+		padding: 1rem;
+		z-index: 10;
 		color: white;
 	}
 
 	.centered-title {
-		position: absolute;
-		bottom: calc(5%);
-		left: 50%;
-		transform: translateX(-50%);
-		/* color: white; */
+		/* position: relative; */
+		z-index: 10;
 		color: #FFC0CB;
-		z-index: 10;
-		font-size: 100px;
-		backdrop-filter: blur(10px); 
-  		/* background: rgba(255, 255, 255, 1);  */
+		font-size: clamp(2.5rem, 10vw, 6.25rem); /* Fluid typography */
+		margin-bottom: 0.1em;
+		/* backdrop-filter: blur(10px);  */
 	}
-	.centered-title-verb {
-		position: absolute;
-		bottom: calc(10%);
-		left: 50%;
-		transform: translateX(-50%);
-		/* color: white; */
+	.centered-title-description {
+		/* position: relative; */
+		z-index: 10;
 		color: #FFFFF0;
-		z-index: 10;
-		font-size: 40px;
-		backdrop-filter: blur(10px); 
-		text-transform: none;
-  		/* background: rgba(255, 255, 255, 1);  */
+		font-size: clamp(1.25rem, 5vw, 2.5rem); /* Fluid typography */
+		margin-bottom: 0.1em;
+		/* backdrop-filter: blur(10px); */
 	}
 
-		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
-			-moz-animation-fill-mode: forwards;
-			-webkit-animation-fill-mode: forwards;
-			-ms-animation-fill-mode: forwards;
-			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
-			color: #fff;
-			display: inline-block;
-			opacity: 0;
-			padding: 6em;
-			text-align: center;
-
-			/* Use when image is a background */
-			/* backdrop-filter: blur(10px);  */		
-			
-			/* Use the following CSS for when banner is at vh setting */
-			/* height: 100%;
-			width: 100%;
-			overflow-y: auto;	 */
+	/* Responsive Breakpoints */
+	@media screen and (min-width: 768px) {
+		.button-footer {
+			flex-direction: row; /* Back to horizontal on larger screens */
+			gap: 2rem;
 		}
+	}
+
+	@media screen and (max-width: 480px) {
+		#banner {
+			min-height: 500px; /* Adjust for very small screens */
+		}
+
+		.centered-title {
+			font-size: clamp(2rem, 8vw, 4rem); /* Smaller on mobile */
+		}
+
+		.centered-title-description {
+			font-size: clamp(1rem, 4vw, 2rem); /* Smaller on mobile */
+		}
+	}
+
+		
 
 			#banner .inner header {
 				display: inline-block;
@@ -2889,25 +2863,10 @@ and moved to the corresponding sections later.
 		font-size: 20px;
 	}
 
-	/* Other background colors
-	Blue Shades
-	background-color: #E7EFFA;
-	background-color: #DCEAF7;
-	background-color: #C9DDF2;
-	background-color: #BFD6EE;
-	background-color: #AFC9E2; 
-	
-	Pink Shades
-	background-color: #FDEEF2;
-	background-color: #F9E8EC;
-	background-color: #F8EDF1;
-	background-color: #FFEFF4;
-	background-color: #FCEBF0;
-	*/
 
 	.service-div
 	{
-		padding: 2em;
+		padding: 1em;
 	}
 
 	/* Services Section: Individual Therapy */
@@ -2922,7 +2881,6 @@ and moved to the corresponding sections later.
 	.individual-therapy-image{
 		width: 100%;
 		height: 100%;
-		padding-top: 5em;
 	}
 
 	/* Services Section: Children Therapy */
@@ -2937,7 +2895,6 @@ and moved to the corresponding sections later.
 	.children-therapy-image{
 		width: 100%;
 		height: 100%;
-		padding-top: 5em;
 	}
 	
 	/* Services Section: Family/Parent Counseling */
@@ -2952,7 +2909,6 @@ and moved to the corresponding sections later.
 	.family-counseling-image{
 		width: 100%;
 		height: 100%;
-		padding-top: 5em;
 	}
 
 	/* Services Section: Testing */
