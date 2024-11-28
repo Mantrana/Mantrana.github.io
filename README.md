@@ -74,7 +74,9 @@ git clone https://github.com/your-username/mantrana.git
 
 ## 📞 Contact
 
-- Email: https://NehaTherapy.github.io
+Feel free to get in touch with me for any queries or to schedule a consultation:
+- Email: nehadeshmukh.nd22@gmail.com
+- Website: https://mantrana.github.io
 - WhatsApp: Available on website
 - Social Media:
   * Facebook
@@ -109,14 +111,6 @@ License: CCA 3.0 license
 	* jQuery (jquery.com)
 	* Scrollex (github.com/ajlkn/jquery.scrollex)
 	* Responsive Tools (github.com/ajlkn/responsive-tools)
-
-## Contact
-Feel free to get in touch with me for any queries or to schedule a consultation:
-
-- Email: nehadeshmukh.nd22@gmail.com
-- Phone: +91 - 98190 41024
-- Website: https://mantrana.github.io
-
 
 <!-- 
 
