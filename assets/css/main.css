@@ -2177,11 +2177,10 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #645862; 
+			background-color: #C8B8A6; 
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
-			color: #fff;
 		}
 
 			.wrapper.style2 input[type="button"]:hover,
@@ -2575,7 +2574,7 @@ input, select, textarea {
 	}
 
 		
-
+/* 
 			#banner .inner header {
 				display: inline-block;
 				border-bottom: solid 2px;
@@ -2610,7 +2609,7 @@ input, select, textarea {
 
 			#banner .inner footer {
 				margin: 2em 0 0 0;
-			}
+			} */
 
 
 /* Main */
@@ -2816,7 +2815,7 @@ and moved to the corresponding sections later.
 		color: #fff;
 		padding: 2em;
 		text-align: center;
-		/* margin-bottom: 5em; */
+		margin-bottom: 5em;
 	}
 
 		#banner-book-now header {
@@ -2935,9 +2934,9 @@ and moved to the corresponding sections later.
 	
 /* Word from the Maker */
 
-	.makers-word {
-		color: #fff;
-	}
+	/* .makers-word {
+		color: #5C4633;
+	} */
 
 	.featured-image {
 		width: 100%;
@@ -3688,7 +3687,7 @@ and moved to the corresponding sections later.
 				/* background: #f1f1f1 */
 			}
 
-				#banner .inner {
+				/* #banner .inner {
 					background: none;
 					display: block;
 					padding: 0 1.5em;
@@ -3704,7 +3703,7 @@ and moved to the corresponding sections later.
 
 					#banner .inner br {
 						display: none;
-					}
+					} */
 
 		/* Main */
 
