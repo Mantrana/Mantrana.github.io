@@ -43,4 +43,4 @@ function nextSlide() {
     showTestimonial(currentTestimonialIndex);
 }
 
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 6000);

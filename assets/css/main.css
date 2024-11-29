@@ -3023,18 +3023,23 @@ and moved to the corresponding sections later.
 	}
 
 	.testimonial-text {
-		font-size: 20px;
+		font-size: 24px;
 		color: #000;
 		font-style: italic;
 		/* margin-bottom: 20px; */
+	}
+
+	@media screen and (max-width: 840px)
+	{
+		.testimonial-text {
+			font-size: 20px;
+		}
 	}
 
 	@media screen and (max-width: 500px)
 	{
 		.testimonial-text {
 			font-size: 14px;
-			color: #000;
-			font-style: italic;
 		}
 	}
 
