@@ -1,4 +1,4 @@
-# Mantrana 🧠💙
+# Mantrana
 
 ## About Mantrana
 
