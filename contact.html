@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Contact Us</title>
-		<link rel="icon" href="/assets/css/images/mantrana-icon.png" type="image/x-icon">
+		<title>Contact Us - Mantrana</title>
+		<link rel="icon" href="/assets/css/images/mantrana-title.png" type="image/x-icon">
 		
 		<!-- Meta Tags -->
 		<meta charset="utf-8" />
@@ -65,7 +65,7 @@
 			<article id="main">
 				
 				<!-- Contact form HTML Code -->
-				<section >
+				<section>
 					<div class="contact-form">
 						<h2 class="canela-title">Contact Us</h2>
 						<form id="contactForm">
@@ -79,10 +79,51 @@
 								<input type="email" id="email" name="email" required>
 							</div>
 							
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<label for="subject">Subject:</label>
 								<input type="text" id="subject" name="subject" required>
+							</div> -->
+
+							<div class="form-group">
+								<label for="reference">Source of Referral:</label>
+								<select id="reference" name="reference" onchange="toggleOtherFieldReference()" required>
+									<option value="Google">Google</option>
+									<option value="LinkedIn">LinkedIn</option>
+									<option value="Friends">Friends</option>
+									<option value="Relative">Relatives</option>
+									<option value="Other">Other</option>
+								</select>
 							</div>
+							
+							<div class="form-group" id="other-reference-field" style="display: none;">
+								<label for="other-reference">Please specify:</label>
+								<input type="text" id="other-reference" name="other-reference">
+							</div>
+
+
+
+
+
+
+
+
+
+							<div class="form-group">
+								<label for="subject">Subject:</label>
+								<select id="subject" name="subject" onchange="toggleOtherField()" required>
+									<option value="Individual Therapy">Individual Therapy</option>
+									<option value="Children Therapy">Children Therapy</option>
+									<option value="Family Counseling">Family Counseling</option>
+									<option value="Testing">Testing</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>
+							
+							<div class="form-group" id="other-field" style="display: none;">
+								<label for="other-subject">Please specify:</label>
+								<input type="text" id="other-subject" name="other-subject">
+							</div>
+							
 
 							<div class="form-group">
 								<label for="phone">Phone Number:</label>
@@ -104,25 +145,25 @@
 			<!-- Footer -->
 			<footer id="footer">
 					<ul class="icons">
-						<li>
+						<!-- <li>
 							<a href="https://www.facebook.com/" class="icon brands circle fa-facebook-f" target="_blank" rel="noopener noreferrer"><span class="label">Facebook</span></a>
-						</li>
+						</li> -->
 						<li>
 							<a href="https://www.instagram.com/" class="icon brands circle fa-instagram" target="_blank" rel="noopener noreferrer"><span class="label">Instagram</span></a>
 						</li>
 						<li>
 							<a href="https://www.linkedin.com/" class="icon brands circle fa-linkedin-in" target="_blank" rel="noopener noreferrer"><span class="label">LinkedIn</span></a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="https://www.medium.com/" class="icon brands circle fa-medium" target="_blank" rel="noopener noreferrer"><span class="label">Medium</span></a>
-						</li>
+						</li> -->
 					</ul>
 					<ul class="icons">
 						<li><a href="contact.html">Contact us</a></li>
 						<li><a href="index.html#main">About</a></li>
 						<li><a href="index.html#service-individual-therapy">Services</a></li>
-						<li><a href="index.html">Blogs</a></li>
-						<li><a href="index.html">Resources</a></li>
+						<!-- <li><a href="index.html">Blogs</a></li>
+						<li><a href="index.html">Resources</a></li> -->
 					</ul>
 					<ul class="icons">
 						<li>
