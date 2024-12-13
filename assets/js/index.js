@@ -44,3 +44,26 @@ function nextSlide() {
 }
 
 setInterval(nextSlide, 6000);
+
+
+function toggleOtherField() {
+    const subjectDropdown = document.getElementById('subject');
+    const otherField = document.getElementById('other-field');
+    if (subjectDropdown.value === 'Other') {
+        otherField.style.display = 'block';
+    } else {
+        otherField.style.display = 'none';
+        document.getElementById('other-subject').value = ''; // Clear the "Other" field
+    }
+}
+
+function toggleOtherFieldReference() {
+    const referenceDropdown = document.getElementById('reference');
+    const otherField = document.getElementById('other-reference-field');
+    if (referenceDropdown.value === 'Other') {
+        otherField.style.display = 'block';
+    } else {
+        otherField.style.display = 'none';
+        document.getElementById('other-reference').value = ''; // Clear the "Other" field
+    }
+}

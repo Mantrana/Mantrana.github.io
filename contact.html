@@ -79,10 +79,51 @@
 								<input type="email" id="email" name="email" required>
 							</div>
 							
-							<div class="form-group">
+							<!-- <div class="form-group">
 								<label for="subject">Subject:</label>
 								<input type="text" id="subject" name="subject" required>
+							</div> -->
+
+							<div class="form-group">
+								<label for="reference">Source of Referral:</label>
+								<select id="reference" name="reference" onchange="toggleOtherFieldReference()" required>
+									<option value="Google">Google</option>
+									<option value="LinkedIn">LinkedIn</option>
+									<option value="Friends">Friends</option>
+									<option value="Relative">Relatives</option>
+									<option value="Other">Other</option>
+								</select>
 							</div>
+							
+							<div class="form-group" id="other-reference-field" style="display: none;">
+								<label for="other-reference">Please specify:</label>
+								<input type="text" id="other-reference" name="other-reference">
+							</div>
+
+
+
+
+
+
+
+
+
+							<div class="form-group">
+								<label for="subject">Subject:</label>
+								<select id="subject" name="subject" onchange="toggleOtherField()" required>
+									<option value="Individual Therapy">Individual Therapy</option>
+									<option value="Children Therapy">Children Therapy</option>
+									<option value="Family Counseling">Family Counseling</option>
+									<option value="Testing">Testing</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>
+							
+							<div class="form-group" id="other-field" style="display: none;">
+								<label for="other-subject">Please specify:</label>
+								<input type="text" id="other-subject" name="other-subject">
+							</div>
+							
 
 							<div class="form-group">
 								<label for="phone">Phone Number:</label>

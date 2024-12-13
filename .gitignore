@@ -1,0 +1,14 @@
+# Ignore any pycache files generated from code execution
+**pycache**/ 
+# Ignores all files with .pyc extension
+*.pyc
+# Ignores environment configuration files 
+.env 
+# Ignores the entire sass/ directory
+sass/
+# Ignores all log files across the project 
+*.log 
+# Ignores .DS_Store files in the root directory
+.DS_Store 
+# Ignores .DS_Store files in all subdirectories
+**/.DS_Store

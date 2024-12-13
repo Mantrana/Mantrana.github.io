@@ -1,7 +1,5 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
-@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/canela-text-trial');
 @import url("https://use.typekit.net/tne1iod.css");
 
@@ -1726,12 +1724,10 @@ input, select, textarea {
 
 		}
 
-/* Section/Article - Edited by Aditya Deshmukh */
-
 /* ====================================================================================================
-   	Major CSS Section
+   	Element-specific CSS styles
    ====================================================================================================
-   Description: This section contains major CSS styles such as Section, Headers, Banner
+   Description: This section contains CSS styles for elements
 ===================================================================================================== */
 
 	section.special, article.special {
@@ -1883,7 +1879,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-/* Icon */
+/* Footer Icons */
 
 	.icon {
 		text-decoration: none;
@@ -1937,39 +1933,37 @@ input, select, textarea {
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-facebook-f {
+			/* .icon.circle.fa-facebook-f {
 				background: #7490c3;
 				color: #fff;
 			}
 
 				.icon.circle.fa-facebook-f:hover {
 					background: #829bc9;
-				}
-			/* Instagram Icon */
+				} */
+			
 			.icon.circle.fa-instagram {
-				background: #E4405F; /* Instagram's primary color */
+				background: #E4405F; 
 				color: #fff;
 			}
 				.icon.circle.fa-instagram:hover {
-				background: #EC6680; /* Lighter shade for hover effect */
+				background: #EC6680; 
 			}
 
-			/* Medium Icon */
-			.icon.circle.fa-medium {
-				background: #00ab6c; /* Medium's primary color */
+			/* .icon.circle.fa-medium {
+				background: #00ab6c; 
 				color: #fff;
 			}
 				.icon.circle.fa-medium:hover {
-				background: #33bc89; /* Lighter shade for hover effect */
-			}
+				background: #33bc89; 
+			} */
 
-			/* LinkedIn Icon */
 			.icon.circle.fa-linkedin-in {
-				background: #0077b5; /* LinkedIn's primary color */
+				background: #0077b5; 
 				color: #fff;
 			}
 				.icon.circle.fa-linkedin-in:hover {
-				background: #338cc2; /* Lighter shade for hover effect */
+				background: #338cc2; 
 			}
 
 		.icon.featured {
@@ -2452,49 +2446,7 @@ input, select, textarea {
 
 /* Banner */
 
-	@-moz-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-webkit-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-ms-keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@keyframes reveal-banner {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
 	#banner {
-		/* WILL MAKE MASSIVE CHANGES AFTER THIS TEXT. USE THIS AS UNDO CHECK POINT */
-
 		position: relative;
 		display: flex;
 		flex-direction: column;
@@ -2506,10 +2458,7 @@ input, select, textarea {
 		min-height: 600px; 
 		background-color: #222222;
 		overflow: hidden; 
-		/* padding-bottom: 10%; */
 	}
-
-	/* Temporary addition by AD */
 
 	.full-page-image {
 		position: absolute;
@@ -2523,11 +2472,11 @@ input, select, textarea {
 
 	.button-footer {
 		display: flex;
-		flex-direction: column; /* Stack on small screens */
+		flex-direction: column; 
 		align-items: center;
 		justify-content: center;
 		width: 100%;
-		max-width: 400px; /* Limit maximum width */
+		max-width: 400px; 
 		gap: 1rem;
 		padding: 1rem;
 		z-index: 10;
@@ -2535,81 +2484,40 @@ input, select, textarea {
 	}
 
 	.centered-title {
-		/* position: relative; */
 		z-index: 10;
 		color: #FFC0CB;
-		font-size: clamp(2.5rem, 10vw, 6.25rem); /* Fluid typography */
+		font-size: clamp(2.5rem, 10vw, 6.25rem); 
 		margin-bottom: 0.1em;
-		/* backdrop-filter: blur(10px);  */
 	}
 	.centered-title-description {
-		/* position: relative; */
 		z-index: 10;
 		color: #FFFFF0;
-		font-size: clamp(1.25rem, 5vw, 2.5rem); /* Fluid typography */
+		font-size: clamp(1.25rem, 5vw, 2.5rem); 
 		margin-bottom: 0.1em;
-		/* backdrop-filter: blur(10px); */
 	}
 
-	/* Responsive Breakpoints */
+/* Responsive Breakpoints for Home Page Background */
+
 	@media screen and (min-width: 768px) {
 		.button-footer {
-			flex-direction: row; /* Back to horizontal on larger screens */
+			flex-direction: row; 
 			gap: 2rem;
 		}
 	}
 
 	@media screen and (max-width: 480px) {
 		#banner {
-			min-height: 500px; /* Adjust for very small screens */
+			min-height: 500px; 
 		}
 
 		.centered-title {
-			font-size: clamp(2rem, 8vw, 4rem); /* Smaller on mobile */
+			font-size: clamp(2rem, 8vw, 4rem); 
 		}
 
 		.centered-title-description {
-			font-size: clamp(1rem, 4vw, 2rem); /* Smaller on mobile */
+			font-size: clamp(1rem, 4vw, 2rem); 
 		}
 	}
-
-		
-/* 
-			#banner .inner header {
-				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
-				margin: 0 0 2em 0;
-				padding: 3px 0 3px 0;
-			}
-
-				#banner .inner header h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
-					font-size: 2.5em;
-					font-weight: 900;
-					letter-spacing: 0.2em;
-					margin: 0;
-					padding-left: 0.05em;
-					position: relative;
-					text-transform: uppercase;
-				}
-
-			#banner .inner p {
-				letter-spacing: 0.1em;
-				margin: 0;
-				text-transform: uppercase;
-			}
-
-				#banner .inner p a {
-					color: inherit;
-					font-weight: 400;
-					text-decoration: none;
-				}
-
-			#banner .inner footer {
-				margin: 2em 0 0 0;
-			} */
 
 
 /* Main */
@@ -2662,8 +2570,6 @@ input, select, textarea {
 
 		.particle {
 			position: absolute;
-			/* width: 10px;
-			height: 10px; */
 			background: rgba(255, 255, 255, 0.6);
 			border-radius: 50%;
 			animation: float 5s infinite ease-in-out;
@@ -2707,38 +2613,7 @@ input, select, textarea {
 				}
 
 
-
-/* 
-====================================================================================================
-CSS added by the Mantrana Team
-====================================================================================================
-Description: This section contains the CSS added by the Mantrana team. These need to be reviewed
-and moved to the corresponding sections later.
-- Aditya Deshmukh
-=================================================== 
-*/
-
-
-/* Fonts for Section Headers and Text */
-
-	.kalnia-glaze{
-		font-family: "Kalnia Glaze", serif;
-		font-optical-sizing: auto;
-		font-weight:400;
-		font-style: normal;
-		font-variation-settings: "wdth" 100;
-		/* uniquifier: Use a unique and descriptive class name
-		weight: Use a value from 100 to 700 */
-	}
-	
-	.lora {
-		font-family: "Lora", serif;
-		font-optical-sizing: auto;
-		font-style: normal;
-		/* uniquifier: Use a unique and descriptive class name
-		weight: Use a value from 400 to 700 */
-	
-	}
+/* Section Headers and Text Fonts */
 
 	.canela-title {
 		font-family: 'Canela Text Trial', sans-serif;
@@ -2799,7 +2674,6 @@ and moved to the corresponding sections later.
 		color: #fff;
 		padding: 2em;
 		text-align: center;
-		/* margin-bottom: 5em; */
 	}
 
 		#banner-schedule-now header {
@@ -2840,7 +2714,6 @@ and moved to the corresponding sections later.
 	}
 
 /* Services  Section */
-
 
 	.section-headers{
 		font-size: 40px;
@@ -2934,9 +2807,9 @@ and moved to the corresponding sections later.
 	
 /* Word from the Maker */
 
-	/* .makers-word {
+	.makers-word {
 		color: #5C4633;
-	} */
+	}
 
 	.featured-image {
 		width: 100%;
@@ -2980,7 +2853,6 @@ and moved to the corresponding sections later.
 		align-items: center;
 		height: 400px;
 		border-radius: 10px;
-		/* background-color: #0077b5; */
 	}
 
 	.testimonial-container {
@@ -3004,7 +2876,6 @@ and moved to the corresponding sections later.
 		text-align: center;
 		padding: 20px;
 		box-sizing: border-box;
-		/* background-color: #fdebd0; */
 	}
 
 	#testimonial1{
@@ -3025,7 +2896,6 @@ and moved to the corresponding sections later.
 		font-size: 24px;
 		color: #000;
 		font-style: italic;
-		/* margin-bottom: 20px; */
 	}
 
 	@media screen and (max-width: 840px)
@@ -3064,12 +2934,9 @@ and moved to the corresponding sections later.
 	}
 
 /* ====================================================================================================
-	CONTACT.HTML CSS added by the Mantrana Team for Contact.html
+	CONTACT HTML 
 	====================================================================================================
-	Description: This section contains the CSS added by the Mantrana team. These need to be reviewed
-	and moved to the corresponding sections later. 
-	CONTACT.HTML CSS
-	- Aditya Deshmukh
+	Description: This section contains the CSS for the Contact page
 	====================================================================================================== */
 
 	.contact-form {
@@ -3686,24 +3553,6 @@ and moved to the corresponding sections later.
 				padding: 6em 0;
 				/* background: #f1f1f1 */
 			}
-
-				/* #banner .inner {
-					background: none;
-					display: block;
-					padding: 0 1.5em;
-				}
-
-					#banner .inner header h2 {
-						font-size: 1.5em;
-					}
-
-					#banner .inner p {
-						text-align: center;
-					}
-
-					#banner .inner br {
-						display: none;
-					} */
 
 		/* Main */
 
