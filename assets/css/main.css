@@ -2839,8 +2839,8 @@ input, select, textarea {
 		}
 		.desktop-image {
 			display: block;
-			border-radius: 200px;
-			padding-bottom: 100px;
+			/* border-radius: 200px; */
+			/* padding-bottom: 100px; */
 		}
 	}
 	
